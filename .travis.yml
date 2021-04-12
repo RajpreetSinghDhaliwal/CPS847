@@ -6,9 +6,9 @@ script: coverage run unittest_api.py
 deploy:
   provider: elasticbeanstalk
   access_key_id:
-    secure: "AKIA4HWTDJZQ7TV6S3C7"
+    secure: "AKIA4HWTDJZQ3JPGBTH6"
   secret_access_key:
-    secure: "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"
+    secure: "8p/AL1cnyS0i0h4vNGIEtg6TEqNQTtpQA9iSDABt"
   region: "us-east-2"
   app: "CPS847_App"
   env: "CPS847app-env"
