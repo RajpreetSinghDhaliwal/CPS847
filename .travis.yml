@@ -12,7 +12,7 @@ deploy:
   region: "us-east-2"
   app: "CPS847_App"
   env: "CPS847app-env"
-  bucket_name: " elasticbeanstalk-us-east-2-841182563937 "
+  bucket_name: "elasticbeanstalk-us-east-2-841182563937"
 after_success: bash <(curl -s https://codecov.io/bash)
 
  
